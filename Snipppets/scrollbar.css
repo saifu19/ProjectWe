@@ -16,6 +16,15 @@ body *, p, a {
     overflow-x: hidden;
 }
 p {
+    line-height: 5vw;
+    font-size: 4vw;
     font-weight: 300;
     color: #8A8BA3;
+}
+img {
+    width: 100% !important;
+}
+h3 {
+    font-size: 8vw;
+    line-height: 10vw;
 }

@@ -310,6 +310,12 @@ video {
     overflow-y: auto;
     overflow-x: hidden;
 }
+.popup-section-1-inner p {
+    font-size: 1.2vw;
+}
+.popup-section-1-inner h1 {
+    font-size: 2.5vw;
+}
 .popup-section-1-inner, .popup-section-2-inner {
     padding: 20px 10%;
 }
