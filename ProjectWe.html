@@ -47,7 +47,7 @@
                         <img class="mx-auto" style="width: 55%;" src="assets/SVG/Asset 1.svg">
                     </div>
                 </div>
-                <div class="col-sm-4 col-md-2 px-0 images-hormel popup-trigger" data-popup="popup-1" style="background-color: #ff7c0f;cursor: pointer;">
+                <div class="col-sm-4 col-md-2 px-0 images-hormel popup-trigger" data-popup="popup-2" style="background-color: #ff7c0f;cursor: pointer;">
                     <div>
                         <h4 class="m-0 py-2 fs-12" style="background-color: #ff9c4a;">Assess</h4>
                     </div>
@@ -55,7 +55,7 @@
                         <img class="mx-auto" style="width: 55%;" src="assets/SVG/Asset 2.svg">
                     </div>
                 </div>
-                <div class="col-sm-4 col-md-2 px-0 images-hormel popup-trigger" data-popup="popup-1" style="background-color: #ffb000;cursor: pointer;">
+                <div class="col-sm-4 col-md-2 px-0 images-hormel popup-trigger" data-popup="popup-3" style="background-color: #ffb000;cursor: pointer;">
                     <div>
                         <h4 class="m-0 py-2 fs-12" style="background-color: #ffc33f;">Engage</h4>
                     </div>
@@ -63,7 +63,7 @@
                         <img class="mx-auto" style="width: 55%;" src="assets/SVG/Asset 3.svg">
                     </div>
                 </div>
-                <div class="col-sm-4 col-md-2 px-0 images-hormel popup-trigger" data-popup="popup-1" style="background-color: #00bc57;cursor: pointer;">
+                <div class="col-sm-4 col-md-2 px-0 images-hormel popup-trigger" data-popup="popup-4" style="background-color: #00bc57;cursor: pointer;">
                     <div>
                         <h4 class="m-0 py-2 fs-12" style="background-color: #3fcc80;">Coach</h4>
                     </div>
@@ -71,7 +71,7 @@
                         <img class="mx-auto" style="width: 55%;" src="assets/SVG/Asset 4.svg">
                     </div>
                 </div>
-                <div class="col-sm-4 col-md-2 px-0 images-hormel popup-trigger" data-popup="popup-1" style="background-color: #00c5e9;cursor: pointer;">
+                <div class="col-sm-4 col-md-2 px-0 images-hormel popup-trigger" data-popup="popup-5" style="background-color: #00c5e9;cursor: pointer;">
                     <div>
                         <h4 class="m-0 py-2 fs-12" style="background-color: #3fd3ee;">Learn</h4>
                     </div>
@@ -79,7 +79,7 @@
                         <img class="mx-auto" style="width: 55%;" src="assets/SVG/Asset 5.svg">
                     </div>
                 </div>
-                <div class="col-sm-4 col-md-2 px-0 images-hormel popup-trigger" data-popup="popup-1" style="background-color: #485daf;cursor: pointer;">
+                <div class="col-sm-4 col-md-2 px-0 images-hormel popup-trigger" data-popup="popup-6" style="background-color: #485daf;cursor: pointer;">
                     <div>
                         <h4 class="m-0 py-2 fs-12" style="background-color: #7585c2;">Empower</h4>
                     </div>
@@ -88,6 +88,14 @@
                     </div>
                 </div>
                 <div class="popup-container popup-1 d-none">
+                    <div class="popup" style="border-width: 10px;">
+                        <img src="assets/SVG/Asset 9.svg" class="close-icon" style="width: 2vw;">
+                        <div class="popup-1-inner">
+                            <img src="assets/PNG/Asset 16.png" class="img-fluid w-100 h-100" style="border-radius: 100px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="popup-container popup-2 d-none">
                     <div class="popup" style="border: 10px solid #ff7c0f;">
                         <img class="close-icon" src="assets/SVG/Asset 9.svg" style="width: 2vw;">
                         <div class="popup-section-1 popup-section" style="background-color: #ff7c0f; color: white;">
@@ -107,38 +115,261 @@
                         </div>
                         <div class="popup-section-2 popup-section">
                             <div class="popup-section-2-inner">
-                                <div class="popup-nav">
+                                <div class="popup-nav" style="border-bottom: 3px solid #FF7C0F;">
                                     <ul>
-                                        <li class="active popup-item" data-tab="why">Why</li>
-                                        <li data-tab="journey" class="popup-item">Journey</li>
-                                        <li data-tab="outcome" class="popup-item">Outcome</li>
-                                        <li data-tab="successes" class="popup-item">Successes</li>
+                                        <li data-parent="2" data-tab="why" class="active popup-item">Why</li>
+                                        <li data-parent="2" data-tab="journey" class="popup-item">Journey</li>
+                                        <li data-parent="2" data-tab="outcome" class="popup-item">Outcome</li>
+                                        <li data-parent="2" data-tab="successes" class="popup-item">Successes</li>
                                     </ul>
                                 </div>
                                 <div class="popup-tab-section why">
-                                    <iframe class="iframe" src="Snipppets/levels_why.html" frameborder="0" width="100%" height="80%"></iframe>
+                                    <iframe class="iframe" src="Snipppets/assess_why.html" frameborder="0" width="100%" height="80%"></iframe>
                                 </div>
-                                <div class="popup-tab-section journey d-none" style="overflow-x: hidden !important;">
-                                    <iframe src="Snipppets/levels_journey.html" frameborder="0" class="iframe" width="100%" height="80%"></iframe>
+                                <div class="popup-tab-section journey d-none">
+                                    <iframe src="Snipppets/assess_journey.html" frameborder="0" class="iframe" width="100%" height="80%"></iframe>
                                 </div>
                                 <div class="popup-tab-section outcome d-none">
-                                    <iframe src="Snipppets/levels_outcome.html" frameborder="0" class="iframe" width="100%" height="80%"></iframe>
+                                    <iframe src="Snipppets/assess_outcome.html" frameborder="0" class="iframe" width="100%" height="80%"></iframe>
                                 </div>
                                 <div class="popup-tab-section successes d-none">
-                                    <iframe src="Snipppets/levels_success.html" frameborder="0" class="iframe" width="100%" height="80%"></iframe>
+                                    <iframe src="Snipppets/assess_success.html" frameborder="0" class="iframe" width="100%" height="80%"></iframe>
                                 </div>
 
                                 <div class="popup-tab-buttons">
                                     <div class="float-start">
                                         <svg class="prev" width="2vw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
-                                            <g id="prevG">
+                                            <g class="prevG">
                                                 <path fill="#000" d="M20,0C8.95,0,0,8.95,0,20s8.95,20,20,20,20-8.96,20-20S31.05,0,20,0Zm6.94,28.83L9.37,19.99,26.94,11.16V28.83Z"/>
                                             </g>
                                         </svg>
                                     </div>
                                     <div class="float-end">
                                         <svg class="next" width="2vw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
-                                            <g id="nextG">
+                                            <g class="nextG">
+                                                <path class="cls-1" d="M20,0C8.95,0,0,8.95,0,20s8.95,20,20,20,20-8.96,20-20S31.04,0,20,0Zm-6.95,28.84V11.16l17.58,8.84L13.05,28.84Z"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="popup-container popup-3 d-none">
+                    <div class="popup" style="border: 10px solid #ffb000;">
+                        <img class="close-icon" src="assets/SVG/Asset 9.svg" style="width: 2vw;">
+                        <div class="popup-section-1 popup-section" style="background-color: #ffb000; color: white;">
+                            <div class="popup-section-1-inner" style="height: 90%;">
+                                <img src="assets/SVG/Asset 3.svg" class="mb-3" style="width: 40%;">
+                                <h1>Engage</h1>
+                                <p>
+                                    Working with Activ8 is a collaborative experience. We determine what your organization needs together.
+                                </p>
+                                <p>
+                                    That means success looks different for everyone, but our philosophy is always the same.
+                                </p>
+                                <p class="mb-0">
+                                    We create driven and passionate people, help them form high-performance teams, and empower them to thrive with intentional tools and practices.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="popup-section-2 popup-section">
+                            <div class="popup-section-2-inner">
+                                <div class="popup-nav" style="border-bottom: 3px solid #ffb000;">
+                                    <ul>
+                                        <li data-parent="3" data-tab="community" class="active popup-item">Community</li>
+                                        <li data-parent="3" data-tab="breakthrough" class="popup-item">Breakthrough Learning</li>
+                                    </ul>
+                                </div>
+                                <div class="popup-tab-section community">
+                                    <iframe class="iframe" src="Snipppets/engage_community.html" frameborder="0" width="100%" height="80%"></iframe>
+                                </div>
+                                <div class="popup-tab-section breakthrough d-none">
+                                    <iframe src="Snipppets/engage_breakthrough.html" frameborder="0" class="iframe" width="100%" height="80%"></iframe>
+                                </div>
+
+                                <div class="popup-tab-buttons">
+                                    <div class="float-start">
+                                        <svg class="prev" width="2vw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+                                            <g class="prevG">
+                                                <path fill="#000" d="M20,0C8.95,0,0,8.95,0,20s8.95,20,20,20,20-8.96,20-20S31.05,0,20,0Zm6.94,28.83L9.37,19.99,26.94,11.16V28.83Z"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div class="float-end">
+                                        <svg class="next" width="2vw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+                                            <g class="nextG">
+                                                <path class="cls-1" d="M20,0C8.95,0,0,8.95,0,20s8.95,20,20,20,20-8.96,20-20S31.04,0,20,0Zm-6.95,28.84V11.16l17.58,8.84L13.05,28.84Z"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="popup-container popup-4 d-none">
+                    <div class="popup" style="border: 10px solid #00bc57;">
+                        <img class="close-icon" src="assets/SVG/Asset 9.svg" style="width: 2vw;">
+                        <div class="popup-section-1 popup-section" style="background-color: #00bc57; color: white;">
+                            <div class="popup-section-1-inner" style="height: 90%;">
+                                <img src="assets/SVG/Asset 3.svg" class="mb-3" style="width: 40%;">
+                                <h1>Coach</h1>
+                                <p>
+                                    Working with Activ8 is a collaborative experience. We determine what your organization needs together.
+                                </p>
+                                <p>
+                                    That means success looks slightly different for everyone, but our philosophy is always the same.
+                                </p>
+                                <p class="mb-0">
+                                    We create driven and passionate people, help them form high-performance teams, and empower them to thrive with intentional tools and practices.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="popup-section-2 popup-section">
+                            <div class="popup-section-2-inner">
+                                <div class="popup-nav" style="border-bottom: 3px solid #00bc57;">
+                                    <ul>
+                                        <li data-parent="4" data-tab="individuals" class="active popup-item">Individuals</li>
+                                        <li data-parent="4" data-tab="teams" class="popup-item">Teams</li>
+                                        <li data-parent="4" data-tab="processes" class="popup-item">Processes</li>
+                                        <li data-parent="4" data-tab="example" class="popup-item">Example</li>
+                                    </ul>
+                                </div>
+                                <div class="popup-tab-section individuals">
+                                    <iframe class="iframe" src="Snipppets/coach_individuals.html" frameborder="0" width="100%" height="80%"></iframe>
+                                </div>
+                                <div class="popup-tab-section teams d-none">
+                                    <iframe src="Snipppets/coach_teams.html" frameborder="0" class="iframe" width="100%" height="80%"></iframe>
+                                </div>
+                                <div class="popup-tab-section processes d-none">
+                                    <iframe class="iframe" src="Snipppets/coach_processes.html" frameborder="0" width="100%" height="80%"></iframe>
+                                </div>
+                                <div class="popup-tab-section example d-none">
+                                    <iframe src="Snipppets/coach_example.html" frameborder="0" class="iframe" width="100%" height="80%"></iframe>
+                                </div>
+                                <div class="popup-tab-buttons">
+                                    <div class="float-start">
+                                        <svg class="prev" width="2vw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+                                            <g class="prevG">
+                                                <path fill="#000" d="M20,0C8.95,0,0,8.95,0,20s8.95,20,20,20,20-8.96,20-20S31.05,0,20,0Zm6.94,28.83L9.37,19.99,26.94,11.16V28.83Z"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div class="float-end">
+                                        <svg class="next" width="2vw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+                                            <g class="nextG">
+                                                <path class="cls-1" d="M20,0C8.95,0,0,8.95,0,20s8.95,20,20,20,20-8.96,20-20S31.04,0,20,0Zm-6.95,28.84V11.16l17.58,8.84L13.05,28.84Z"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="popup-container popup-5 d-none">
+                    <div class="popup" style="border: 10px solid #00c5e9;">
+                        <img class="close-icon" src="assets/SVG/Asset 9.svg" style="width: 2vw;">
+                        <div class="popup-section-1 popup-section" style="background-color: #00c5e9; color: white;">
+                            <div class="popup-section-1-inner" style="height: 90%;">
+                                <img src="assets/SVG/Asset 5.svg" class="mb-3" style="width: 40%;">
+                                <h1>Learn</h1>
+                                <p>
+                                    Our framework fundamentally changes how participants see both themselves and the world around them.
+                                </p>
+                                <p class="mb-0">
+                                    Through our coaching, they build the muscle of breakthrough learning, which strengthens the way they practice accountability, re-evaluate existing patterns, and support their team(s) in continued growth.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="popup-section-2 popup-section">
+                            <div class="popup-section-2-inner">
+                                <div class="popup-nav" style="border-bottom: 3px solid #00c5e9;">
+                                    <ul>
+                                        <li data-parent="5" data-tab="human" class="active popup-item">Human Experience</li>
+                                        <li data-parent="5" data-tab="experiential" class="popup-item">Experiential Learning</li>
+                                    </ul>
+                                </div>
+                                <div class="popup-tab-section human">
+                                    <iframe class="iframe" src="Snipppets/learn_human.html" frameborder="0" width="100%" height="80%"></iframe>
+                                </div>
+                                <div class="popup-tab-section experiential d-none">
+                                    <iframe src="Snipppets/learn_experiential.html" frameborder="0" class="iframe" width="100%" height="80%"></iframe>
+                                </div>
+
+                                <div class="popup-tab-buttons">
+                                    <div class="float-start">
+                                        <svg class="prev" width="2vw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+                                            <g class="prevG">
+                                                <path fill="#000" d="M20,0C8.95,0,0,8.95,0,20s8.95,20,20,20,20-8.96,20-20S31.05,0,20,0Zm6.94,28.83L9.37,19.99,26.94,11.16V28.83Z"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div class="float-end">
+                                        <svg class="next" width="2vw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+                                            <g class="nextG">
+                                                <path class="cls-1" d="M20,0C8.95,0,0,8.95,0,20s8.95,20,20,20,20-8.96,20-20S31.04,0,20,0Zm-6.95,28.84V11.16l17.58,8.84L13.05,28.84Z"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="popup-container popup-6 d-none">
+                    <div class="popup" style="border: 10px solid #485daf;">
+                        <img class="close-icon" src="assets/SVG/Asset 9.svg" style="width: 2vw;">
+                        <div class="popup-section-1 popup-section" style="background-color: #485daf; color: white;">
+                            <div class="popup-section-1-inner" style="height: 90%;">
+                                <img src="assets/SVG/Asset 6.svg" class="mb-3" style="width: 40%;">
+                                <h1>Empower</h1>
+                                <p>
+                                    Working with Activ8 empowers you to understand the domains of human experience.
+                                </p>
+                                <p>
+                                    By following the principles and practices of high performance, you start and maintain the cycle of leadership in your organization.
+                                </p>
+                                <p class="mb-0">
+                                    We ignite your passion, and unleash your potential, so you can reap the benefits of a high-performance culture.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="popup-section-2 popup-section">
+                            <div class="popup-section-2-inner">
+                                <div class="popup-nav" style="border-bottom: 3px solid #485daf;">
+                                    <ul>
+                                        <li data-parent="6" data-tab="you" class="active popup-item">For You</li>
+                                        <li data-parent="6" data-tab="relationships" class="popup-item">Relationships</li>
+                                        <li data-parent="6" data-tab="teams2" class="popup-item">Teams</li>
+                                        <li data-parent="6" data-tab="culture" class="popup-item">Culture</li>
+                                    </ul>
+                                </div>
+                                <div class="popup-tab-section you">
+                                    <iframe class="iframe" src="Snipppets/empower_you.html" frameborder="0" width="100%" height="80%"></iframe>
+                                </div>
+                                <div class="popup-tab-section relationships d-none">
+                                    <iframe src="Snipppets/empower_relationships.html" frameborder="0" class="iframe" width="100%" height="80%"></iframe>
+                                </div>
+                                <div class="popup-tab-section teams2 d-none">
+                                    <iframe class="iframe" src="Snipppets/empower_teams.html" frameborder="0" width="100%" height="80%"></iframe>
+                                </div>
+                                <div class="popup-tab-section culture d-none">
+                                    <iframe src="Snipppets/empower_culture.html" frameborder="0" class="iframe" width="100%" height="80%"></iframe>
+                                </div>
+                                <div class="popup-tab-buttons">
+                                    <div class="float-start">
+                                        <svg class="prev" width="2vw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+                                            <g class="prevG">
+                                                <path fill="#000" d="M20,0C8.95,0,0,8.95,0,20s8.95,20,20,20,20-8.96,20-20S31.05,0,20,0Zm6.94,28.83L9.37,19.99,26.94,11.16V28.83Z"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div class="float-end">
+                                        <svg class="next" width="2vw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+                                            <g class="nextG">
                                                 <path class="cls-1" d="M20,0C8.95,0,0,8.95,0,20s8.95,20,20,20,20-8.96,20-20S31.04,0,20,0Zm-6.95,28.84V11.16l17.58,8.84L13.05,28.84Z"/>
                                             </g>
                                         </svg>
@@ -153,12 +384,14 @@
 
 
         <script>
+            activeColors = ['#ff7c0f', '#ffb000', '#00bc57', '#00c5e9', '#485daf'];
             $(".popup-trigger").click(function() {
                 let popup = '.' + $(this).attr("data-popup");
                 $(popup).removeClass('d-none');
-                // console.log($(popup).children().find('.active').html());
                 checkButtons($(popup).children().find('.active'));
+                changeColor($(popup).children().find('.active'));
             })
+            
             $(".close-icon").click(function() {
                 $(".popup-container").each(function() {
                     if(!$(this).hasClass('d-none')) {
@@ -166,71 +399,76 @@
                     }
                 })
             })
+            
             $(".popup-item").click(function() {
                 let tab = '.' + $(this).attr("data-tab");
-                $(".popup-item").each(function() {
-                    if($(this).hasClass('active')) {
-                        $(this).removeClass('active');
-                    }
-                })
+                removeActiveItem($(this).parent().parent());
                 $(this).addClass('active');
+                changeColor($(this));
                 checkButtons($(this));
-                $(".popup-tab-section").each(function() {
-                    if(!$(this).hasClass('d-none')) {
-                        $(this).addClass('d-none');
-                    }
-                })
+                hideTab($(this).parent().parent().parent());
                 $(tab).removeClass('d-none');
             })
+            
             $(".next").click(function() {
                 let tab = '.' + $(this).parent().parent().parent().children('.popup-nav').find('.active').next().attr('data-tab');
                 let active = $(this).parent().parent().parent().children('.popup-nav').find('.active').next();
-                $(".popup-item").each(function() {
-                    if($(this).hasClass('active')) {
-                        $(this).removeClass('active');
-                    }
-                })
+                removeActiveItem($(this).parent().parent().parent().children(".popup-nav"));
                 $(active).addClass('active');
-                $(".popup-tab-section").each(function() {
-                    if(!$(this).hasClass('d-none')) {
-                        $(this).addClass('d-none');
-                    }
-                })
+                changeColor($(active));
+                hideTab($(this).parent().parent().parent());
                 $(tab).removeClass('d-none');
                 checkButtons(active);
             })
+            
             $(".prev").click(function() {
                 let tab = '.' + $(this).parent().parent().parent().children('.popup-nav').find('.active').prev().attr('data-tab');
                 let active = $(this).parent().parent().parent().children('.popup-nav').find('.active').prev();
-                $(".popup-item").each(function() {
-                    if($(this).hasClass('active')) {
-                        $(this).removeClass('active');
-                    }
-                })
+                removeActiveItem($(this).parent().parent().parent().children(".popup-nav"));
                 $(active).addClass('active');
-                $(".popup-tab-section").each(function() {
-                    if(!$(this).hasClass('d-none')) {
-                        $(this).addClass('d-none');
-                    }
-                })
+                changeColor($(active));
+                hideTab($(this).parent().parent().parent());
                 $(tab).removeClass('d-none');
                 checkButtons(active);
             })
+            
             function checkButtons(active) {
                 if($(active).prev().length) {
-                    $('#prevG').children().attr('fill', '#0085cb');
-                    $(".prev").css('pointer-events', 'all');
+                    $(active).parent().parent().parent().find('.prevG').children().attr('fill', '#0085cb');
+                    $(active).parent().parent().parent().find(".prev").css('pointer-events', 'all');
                 } else {
-                    $('#prevG').children().attr('fill', '#ddd');
-                    $(".prev").css('pointer-events', 'none');
+                    $(active).parent().parent().parent().find('.prevG').children().attr('fill', '#ddd');
+                    $(active).parent().parent().parent().find(".prev").css('pointer-events', 'none');
                 }
                 if($(active).next().length) {
-                    $('#nextG').children().attr('fill', '#0085cb');
-                    $(".next").css('pointer-events', 'all');
+                    $(active).parent().parent().parent().find('.nextG').children().attr('fill', '#0085cb');
+                    $(active).parent().parent().parent().find(".next").css('pointer-events', 'all');
                 } else {
-                    $('#nextG').children().attr('fill', '#ddd');
-                    $(".next").css('pointer-events', 'none');
+                    $(active).parent().parent().parent().find('.nextG').children().attr('fill', '#ddd');
+                    $(active).parent().parent().parent().find(".next").css('pointer-events', 'none');
                 }
+            }
+            
+            function removeActiveItem(nav) {
+                nav.children().children().each(function() {
+                    if($(this).hasClass('active')) {
+                        $(this).removeClass('active');
+                        $(this).removeAttr('style');
+                    }
+                })
+            }
+            
+            function hideTab(tabSection) {
+                tabSection.children().each(function() {
+                    if(!$(this).hasClass('d-none') && $(this).hasClass("popup-tab-section")) {
+                        $(this).addClass('d-none');
+                    }
+                })
+            }
+            
+            function changeColor(element) {
+                let parent = element.attr('data-parent');
+                element.attr('style', 'background-color: ' + activeColors[parseInt(parent)-2]);
             }
         </script>
     </body>
